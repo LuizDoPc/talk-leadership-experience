@@ -63,7 +63,7 @@ function App() {
         <div className='sl1'>
           <div className='side-device'>
             <div>Kero Kolaborar</div>
-            <div>CEFET-MG, IFSP, UFLA</div>
+            <div>CEFET-MG, IFSP, IFMT, UFLA</div>
 
             {canShowNext && (
               <div

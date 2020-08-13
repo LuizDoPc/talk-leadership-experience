@@ -57,7 +57,7 @@ const Terminal = ({ nextPage, close }) => {
                       'store folder structure:',
                       '---- module/',
                       '-------- moduleActions.js',
-                      '-------- module.js',
+                      '-------- moduleReducer.js',
                     ];
                   if (command === 'ldpc open KeroKolaborar') {
                     output = ['switching page...'];
