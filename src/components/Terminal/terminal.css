@@ -1,0 +1,92 @@
+.terminal {
+  width: 800px;
+  height: 500px;
+  border: 1px solid #ddd;
+}
+
+.navbar {
+  width: 100%;
+  height: 50px;
+  background-color: #e4e4e4;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: black;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-left: 20px;
+}
+
+.red {
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  border-radius: 20px;
+}
+
+.yellow {
+  width: 20px;
+  height: 20px;
+  background-color: yellow;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.green {
+  width: 20px;
+  height: 20px;
+  background-color: green;
+  border-radius: 20px;
+  margin-left: 10px;
+}
+
+.title {
+  margin-right: 20px;
+}
+
+.body {
+  width: 100%;
+  height: calc(100% - 50px);
+  background-color: black;
+  font-size: 15pt;
+  overflow-y: auto;
+}
+
+.command-container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+.user {
+  color: green;
+}
+
+.command {
+  margin-left: 10px;
+}
+
+.output-container {
+  margin-left: 10px;
+  padding-top: 15px;
+}
+
+.mb {
+  margin-bottom: 100px;
+}
+
+.input {
+  background-color: black;
+  border: none;
+  color: white;
+  font-size: 15pt;
+  width: 350px;
+}

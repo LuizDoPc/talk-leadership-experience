@@ -1,14 +1,19 @@
+html {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+}
+
 .App {
   text-align: center;
 }
 
 .App-logo {
   height: 20vmin;
-  pointer-events: none;
 }
 
-.App-header {
-  background-color: #282A36;
+.drac {
+  background-color: #282a36;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -20,4 +25,201 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.file {
+  border: 1px solid #ddd;
+  height: 140px;
+  width: 130px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  user-select: none;
+  padding: 10px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  cursor: pointer;
+  width: 270px;
+  height: 250px;
+}
+
+.border {
+  border: 1px dashed #ddd;
+  background-color: #61dafb30;
+}
+
+.full {
+  width: 100vw;
+  height: 100vh;
+}
+
+.device {
+  background-image: url('./assets/iphoneCover.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 350px;
+  height: 700px;
+}
+
+.iphone {
+  max-width: 100%;
+}
+.screen {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 80px;
+  height: 539px;
+  background-image: url('./assets/demo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.demo {
+  margin-left: -300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-device {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 30pt;
+}
+
+.prox {
+  font-size: 20pt;
+  margin-top: 80px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 20px;
+  user-select: none;
+  cursor: pointer;
+}
+
+.sl1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.blink {
+  animation-iteration-count: infinite;
+  animation-name: blink;
+  animation-duration: 100ms;
+}
+
+@keyframes blink {
+  0% {
+    color: white;
+    margin-left: 3px;
+  }
+  50% {
+    color: #fbc434;
+  }
+  100% {
+    color: white;
+  }
+}
+
+.sl2 {
+  height: 100%;
+  margin-top: 40%;
+}
+
+.lista {
+  margin-bottom: 100px;
+}
+
+.sl3 {
+  width: 800px;
+  height: 500px;
+  top: 100px;
+  left: 600px;
+  position: fixed;
+}
+
+.sl4 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.result {
+  width: 400px;
+  border-radius: 50px;
+}
+
+.res {
+  font-size: 40pt;
+  margin-bottom: 50px;
+}
+
+.number {
+  font-family: 'GilroyExtraBold';
+}
+
+.header {
+  width: 100%;
+  margin-bottom: 55px;
+}
+
+.wide {
+  width: 70%;
+}
+
+.sl5 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+}
+
+.insta {
+  position: absolute;
+  color: #3d4fbc;
+  margin-top: 530px;
+  margin-left: 130px;
+}
+
+.in {
+  position: absolute;
+  color: #3d4fbc;
+  margin-top: 530px;
+  margin-left: 850px;
+}
+
+.tks {
+  position: absolute;
+  color: #3d4fbc;
+  margin-top: 830px;
+  margin-left: 850px;
+  font-family: 'GilroyExtraBold';
+  font-size: 80pt;
 }
